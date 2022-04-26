@@ -6,8 +6,8 @@ import java.util.*;
  
 public class Mail
 {
-    final static String username = "casa.de.papel.pap@gmail.com";
-    final static String password = "casadepapel8";
+    final static String username = "adres@gmail.com";
+    final static String password = "haslo";
 
     public static void send(String recipient, HashMap<String, String> mail_info, boolean advert, Dictionary dict) throws MessagingException {
         // if advert is true then the mail is sent with automatic advert message
